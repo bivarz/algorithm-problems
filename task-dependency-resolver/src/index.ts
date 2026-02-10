@@ -92,4 +92,4 @@ export function getBlockedTasks(tasks: Task[], completedIds: string[]) {
 
 resolveOrder(tasks);
 resolveOrder(cyclicTasks);
-getBlockedTasks(cyclicTasks, ['c']);
+getBlockedTasks(tasks, ['c']);
